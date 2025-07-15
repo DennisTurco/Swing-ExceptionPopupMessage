@@ -26,6 +26,14 @@ If you are using a **Maven** project, you can add this dependency to your `pom.x
   <version>1.0.0</version>
 </dependency>
 ```
+```xml
+<repositories>
+  <repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+  </repository>
+</repositories>
+```
 
 ## Usage
 
