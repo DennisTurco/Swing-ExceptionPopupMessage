@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
                              http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.DennisTurco</groupId>
   <artifactId>exceptionpopupmessage</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <packaging>jar</packaging>
 
   <name>Exception Popup Message</name>
@@ -36,28 +36,36 @@
     <developerConnection>scm:git:ssh://github.com/DennisTurco/Swing-ExceptionPopupMessage.git</developerConnection>
   </scm>
 
+<!--  <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>ossrh</id>
+      <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>-->
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.deploy.skip>false</maven.deploy.skip>
   </properties>
-
+  
   <distributionManagement>
-    <repository>
-      <id>github</id>
-      <name>GitHub DennisTurco Apache Maven Packages</name>
-      <url>https://maven.pkg.github.com/DennisTurco/Swing-ExceptionPopupMessage</url>
-    </repository>
+      <repository>
+          <id>github</id>
+        <name>Gitub OWNER Apache Maven Packages</name>
+        <url>https://maven.pkg.github.com/DennisTurco/Swing-ExceptionPopupMessage</url>
+      </repository>
   </distributionManagement>
 
   <build>
     <plugins>
-      <plugin>
+      <!-- Firma GPG -->
+<!--      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-gpg-plugin</artifactId>
         <version>1.6</version>
-        <configuration>
-          <skip>true</skip> <!-- No firm -->
-        </configuration>
         <executions>
           <execution>
             <id>sign-artifacts</id>
@@ -67,8 +75,9 @@
             </goals>
           </execution>
         </executions>
-      </plugin>
+      </plugin>-->
 
+      <!-- Source jar -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>
@@ -83,6 +92,7 @@
         </executions>
       </plugin>
 
+      <!-- Javadoc jar -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
@@ -97,6 +107,7 @@
         </executions>
       </plugin>
 
+      <!-- Deploy plugin -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-deploy-plugin</artifactId>
