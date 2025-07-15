@@ -8,8 +8,6 @@
 
 It is particularly useful for Java Swing applications that require convenient and guided error feedback from users.
 
----
-
 ## Features
 
 - Show error messages with full stack traces.
@@ -18,19 +16,22 @@ It is particularly useful for Java Swing applications that require convenient an
 - Customize button labels, instructions, and icons.
 - Optionally attach a listener to track user interaction with the dialog.
 
----
 
 ## Installation
-
----
+If you are using a **Maven** project, you can add this dependency to your `pom.xml` file:
+```xml
+<dependency>
+  <groupId>io.github.DennisTurco</groupId>
+  <artifactId>exceptionpopupmessage</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
 
 ## Usage
 
 ### Basic Example
 
 ```java
-java
-CopyEdit
 import remindme.Managers.ExceptionPopupMessage;
 import javax.swing.*;
 
@@ -52,7 +53,6 @@ public class Main {
         }
     }
 }
-
 ```
 
 ### With Listener
@@ -74,10 +74,8 @@ popup.setExceptionDialogListener(new ExceptionPopupMessage.ExceptionDialogListen
         System.out.println("User closed the error dialog.");
     }
 });
-
 ```
 
----
 
 ## Customization
 

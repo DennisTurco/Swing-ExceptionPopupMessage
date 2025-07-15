@@ -1,15 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>com.dennisturco</groupId>
-    <artifactId>ExceptionPopupMessage</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>19</maven.compiler.source>
-        <maven.compiler.target>19</maven.compiler.target>
-        <exec.mainClass>com.dennisturco.swing.exceptionpopupmessage.SwingExceptionPopupMessage</exec.mainClass>
-    </properties>
-    <name>ExceptionPopupMessage</name>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>io.github.DennisTurco</groupId>
+  <artifactId>exceptionpopupmessage</artifactId>
+  <version>1.0.0</version>
+  <packaging>jar</packaging>
+
+  <name>Exception Popup Message</name>
+  <description>A utility class for displaying exception messages to users with options to copy the stack trace to the clipboard or report the error via a URL.</description>
+  <url>https://github.com/DennisTurco/Swing-ExceptionPopupMessage</url>
+
+  <licenses>
+    <license>
+      <name>The MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>DennisTurco</id>
+      <name>Dennis Turco</name>
+      <email>dennisturco@gmail.com</email>
+    </developer>
+  </developers>
+
+  <scm>
+    <url>https://github.com/DennisTurco/Swing-ExceptionPopupMessage</url>
+    <connection>scm:git:git://github.com/DennisTurco/Swing-ExceptionPopupMessage.git</connection>
+    <developerConnection>scm:git:ssh://github.com/DennisTurco/Swing-ExceptionPopupMessage.git</developerConnection>
+  </scm>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.deploy.skip>false</maven.deploy.skip>
+  </properties>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub DennisTurco Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/DennisTurco/Swing-ExceptionPopupMessage</url>
+    </repository>
+  </distributionManagement>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-gpg-plugin</artifactId>
+        <version>1.6</version>
+        <configuration>
+          <skip>true</skip> <!-- No firm -->
+        </configuration>
+        <executions>
+          <execution>
+            <id>sign-artifacts</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>sign</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <version>3.2.1</version>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.5.0</version>
+        <executions>
+          <execution>
+            <id>attach-javadocs</id>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-deploy-plugin</artifactId>
+        <version>3.1.1</version>
+      </plugin>
+    </plugins>
+  </build>
 </project>

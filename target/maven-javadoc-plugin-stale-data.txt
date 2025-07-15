@@ -1,0 +1,38 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'D:/Documents/NetBeansProjects/ExceptionPopupMessage/src/main/java;D:/Documents/NetBeansProjects/ExceptionPopupMessage/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'D:/Documents/NetBeansProjects/ExceptionPopupMessage/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Exception Popup Message 1.0.0 API'
+-use
+-version
+-windowtitle
+'Exception Popup Message 1.0.0 API'
+com.dennisturco.exceptionpopupmessage
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\src\main\java = 1752579458812
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\generated-sources\annotations = 1752579651639
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\allclasses-index.html = 1752582269594
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\allpackages-index.html = 1752582269597
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\element-list = 1752582269551
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\help-doc.html = 1752582269631
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\index-all.html = 1752582269620
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\index.html = 1752582269628
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\member-search-index.js = 1752582269601
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\module-search-index.js = 1752582269598
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\overview-tree.html = 1752582269583
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\package-search-index.js = 1752582269599
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\search.html = 1752582269622
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\tag-search-index.js = 1752582269602
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\type-search-index.js = 1752582269600
