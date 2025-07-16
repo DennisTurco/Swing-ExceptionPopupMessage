@@ -100,8 +100,8 @@
           </goals>
           <configuration>
             <target>
-              <mkdir dir="apidocs" />
-              <copy todir="apidocs">
+              <mkdir dir="docs"/>
+              <copy todir="docs">
                 <fileset dir="target/site/apidocs" />
               </copy>
             </target>
