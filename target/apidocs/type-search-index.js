@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.dennisturco.exceptionpopupmessage","l":"ExceptionDialogListener"},{"p":"com.dennisturco.exceptionpopupmessage","l":"ExceptionPopupMessage"}];updateSearchResults();
