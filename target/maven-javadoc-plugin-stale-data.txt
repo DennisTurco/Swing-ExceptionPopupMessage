@@ -1,0 +1,40 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/Users/d.turco/Desktop/DennisTurco/programs/Swing-ExceptionPopupMessage/src/main/java;C:/Users/d.turco/Desktop/DennisTurco/programs/Swing-ExceptionPopupMessage/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/d.turco/Desktop/DennisTurco/programs/Swing-ExceptionPopupMessage/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Exception Popup Message 1.0.4 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/d.turco/Desktop/DennisTurco/programs/Swing-ExceptionPopupMessage/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Exception Popup Message 1.0.4 API'
+com.dennisturco.exceptionpopupmessage
+C:\Users\d.turco\Desktop\DennisTurco\programs\Swing-ExceptionPopupMessage\src\main\java = 1752651127596
+C:\Users\d.turco\Desktop\DennisTurco\programs\Swing-ExceptionPopupMessage\target\generated-sources\annotations = 1752653335144
+C:\Users\d.turco\Desktop\DennisTurco\programs\Swing-ExceptionPopupMessage\target\apidocs\allclasses-index.html = 1752653339282
+C:\Users\d.turco\Desktop\DennisTurco\programs\Swing-ExceptionPopupMessage\target\apidocs\allpackages-index.html = 1752653339286
+C:\Users\d.turco\Desktop\DennisTurco\programs\Swing-ExceptionPopupMessage\target\apidocs\element-list = 1752653339205
+C:\Users\d.turco\Desktop\DennisTurco\programs\Swing-ExceptionPopupMessage\target\apidocs\help-doc.html = 1752653339326
+C:\Users\d.turco\Desktop\DennisTurco\programs\Swing-ExceptionPopupMessage\target\apidocs\index-all.html = 1752653339313
+C:\Users\d.turco\Desktop\DennisTurco\programs\Swing-ExceptionPopupMessage\target\apidocs\index.html = 1752653339319
+C:\Users\d.turco\Desktop\DennisTurco\programs\Swing-ExceptionPopupMessage\target\apidocs\member-search-index.js = 1752653339297
+C:\Users\d.turco\Desktop\DennisTurco\programs\Swing-ExceptionPopupMessage\target\apidocs\module-search-index.js = 1752653339290
+C:\Users\d.turco\Desktop\DennisTurco\programs\Swing-ExceptionPopupMessage\target\apidocs\overview-tree.html = 1752653339266
+C:\Users\d.turco\Desktop\DennisTurco\programs\Swing-ExceptionPopupMessage\target\apidocs\package-search-index.js = 1752653339291
+C:\Users\d.turco\Desktop\DennisTurco\programs\Swing-ExceptionPopupMessage\target\apidocs\search.html = 1752653339316
+C:\Users\d.turco\Desktop\DennisTurco\programs\Swing-ExceptionPopupMessage\target\apidocs\tag-search-index.js = 1752653339300
+C:\Users\d.turco\Desktop\DennisTurco\programs\Swing-ExceptionPopupMessage\target\apidocs\type-search-index.js = 1752653339294

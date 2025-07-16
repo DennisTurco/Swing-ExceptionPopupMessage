@@ -17,9 +17,9 @@ It is particularly useful for Java Swing applications that require convenient an
 - Optionally attach a listener to track user interaction with the dialog.
 
 ## Screenshots
-| ![](./docs/screen1.png) | ![](./docs/screen2.png) |
+| ![](./imgs/screen1.png) | ![](./imgs/screen2.png) |
 | ------------------------ | ------------------------ |
-| ![](./docs/screen3.png) | ![](./docs/screen4.png) |
+| ![](./imgs/screen3.png) | ![](./imgs/screen4.png) |
 
 ## Installation
 If you are using a **Maven** project, you can add this dependency to your `pom.xml` file:
@@ -40,6 +40,8 @@ If you are using a **Maven** project, you can add this dependency to your `pom.x
 ```
 
 ## Usage
+📘 [Javadoc Documentation](https://dennisturco.github.io/Swing-ExceptionPopupMessage/)
+
 
 ### Basic Example
 
