@@ -16,14 +16,18 @@ It is particularly useful for Java Swing applications that require convenient an
 - Customize button labels, instructions, and icons.
 - Optionally attach a listener to track user interaction with the dialog.
 
+## Screenshots
+| ![](./docs/screen1.png) | ![](./docs/screen2.png) |
+| ------------------------ | ------------------------ |
+| ![](./docs/screen3.png) | ![](./docs/screen4.png) |
 
 ## Installation
 If you are using a **Maven** project, you can add this dependency to your `pom.xml` file:
 ```xml
 <dependency>
-  <groupId>io.github.DennisTurco</groupId>
-  <artifactId>exceptionpopupmessage</artifactId>
-  <version>1.0.0</version>
+    <groupId>com.github.DennisTurco</groupId>
+    <artifactId>Swing-ExceptionPopupMessage</artifactId>
+    <version>v1.0.4</version>
 </dependency>
 ```
 ```xml
