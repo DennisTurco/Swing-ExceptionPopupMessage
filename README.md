@@ -26,7 +26,7 @@ If you are using a **Maven** project, you can add this dependency to your `pom.x
 ```xml
 <dependency>
     <groupId>com.github.DennisTurco</groupId>
-    <artifactId>Swing-ExceptionPopupMessage</artifactId>
+    <artifactId>exception-popup-message</artifactId>
     <version>v1.0.4</version>
 </dependency>
 ```
@@ -40,13 +40,14 @@ If you are using a **Maven** project, you can add this dependency to your `pom.x
 ```
 
 ## Usage
-📘 [Javadoc Documentation](https://dennisturco.github.io/Swing-ExceptionPopupMessage/com/dennisturco/exceptionpopupmessage/package-summary.html)
+📘 [Javadoc Documentation](https://dennisturco.github.io/Swing-ExceptionPopupMessage/com/dennisturco/package-summary.html)
 
 
 ### Basic Example
 
 ```java
-import com.dennisturco.exceptionpopupmessage.ExceptionPopupMessage;import javax.swing.*;
+import com.dennisturco.ExceptionPopupMessage;
+import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) {

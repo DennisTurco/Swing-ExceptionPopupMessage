@@ -1,4 +1,4 @@
-package com.dennisturco.exceptionpopupmessage;
+package com.dennisturco;
 
 import java.awt.Component;
 import java.awt.Desktop;

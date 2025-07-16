@@ -1,4 +1,4 @@
-package com.dennisturco.exceptionpopupmessage;
+package com.dennisturco;
 
 /**
 * Listener interface for handling user actions from the exception dialog.

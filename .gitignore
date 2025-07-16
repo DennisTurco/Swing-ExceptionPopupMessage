@@ -2,6 +2,7 @@
 /target/apidocs/
 /target/classes/
 /target/generated-sources/
+/target/generated-test-sources/
 /target/javadoc-bundle-options/
 /target/maven-archiver
 /target/maven-status

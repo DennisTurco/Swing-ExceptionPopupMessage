@@ -7,7 +7,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.DennisTurco</groupId>
-  <artifactId>exceptionpopupmessage</artifactId>
+  <artifactId>exception-popup-message</artifactId>
   <version>1.0.4</version>
   <packaging>jar</packaging>
 
