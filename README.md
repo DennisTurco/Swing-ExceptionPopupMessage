@@ -26,7 +26,7 @@ If you are using a **Maven** project, you can add this dependency to your `pom.x
 ```xml
 <dependency>
     <groupId>com.github.DennisTurco</groupId>
-    <artifactId>exception-popup-message</artifactId>
+    <artifactId>Swing-ExceptionPopupMessage</artifactId>
     <version>v1.0.5</version>
 </dependency>
 ```
