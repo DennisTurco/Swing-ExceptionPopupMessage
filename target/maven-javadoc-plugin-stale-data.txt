@@ -15,26 +15,26 @@
 -docencoding
 'UTF-8'
 -doctitle
-'Exception Popup Message 1.0.4 API'
+'Exception Popup Message 1.0.5 API'
 -linkoffline
 'https://docs.oracle.com/javase/8/docs/api' 'D:/Documents/NetBeansProjects/ExceptionPopupMessage/target/javadoc-bundle-options'
 -use
 -version
 -windowtitle
-'Exception Popup Message 1.0.4 API'
+'Exception Popup Message 1.0.5 API'
 com.dennisturco
 D:\Documents\NetBeansProjects\ExceptionPopupMessage\src\main\java = 1752579458812
-D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\generated-sources\annotations = 1752590701203
-D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\allclasses-index.html = 1752696409075
-D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\allpackages-index.html = 1752696409080
-D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\element-list = 1752696409028
-D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\help-doc.html = 1752696409111
-D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\index-all.html = 1752696409097
-D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\index.html = 1752696409103
-D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\member-search-index.js = 1752696409084
-D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\module-search-index.js = 1752696409081
-D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\overview-tree.html = 1752696409062
-D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\package-search-index.js = 1752696409082
-D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\search.html = 1752696409100
-D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\tag-search-index.js = 1752696409086
-D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\type-search-index.js = 1752696409083
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\generated-sources\annotations = 1752696739597
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\allclasses-index.html = 1752697019894
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\allpackages-index.html = 1752697019897
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\element-list = 1752697019856
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\help-doc.html = 1752697019924
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\index-all.html = 1752697019911
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\index.html = 1752697019915
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\member-search-index.js = 1752697019900
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\module-search-index.js = 1752697019898
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\overview-tree.html = 1752697019884
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\package-search-index.js = 1752697019898
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\search.html = 1752697019913
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\tag-search-index.js = 1752697019901
+D:\Documents\NetBeansProjects\ExceptionPopupMessage\target\apidocs\type-search-index.js = 1752697019899
