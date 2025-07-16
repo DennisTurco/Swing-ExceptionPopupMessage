@@ -46,8 +46,7 @@ If you are using a **Maven** project, you can add this dependency to your `pom.x
 ### Basic Example
 
 ```java
-import remindme.Managers.ExceptionPopupMessage;
-import javax.swing.*;
+import com.dennisturco.exceptionpopupmessage.ExceptionPopupMessage;import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) {
