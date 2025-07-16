@@ -40,7 +40,7 @@ If you are using a **Maven** project, you can add this dependency to your `pom.x
 ```
 
 ## Usage
-📘 [Javadoc Documentation](https://dennisturco.github.io/Swing-ExceptionPopupMessage/)
+📘 [Javadoc Documentation](https://dennisturco.github.io/Swing-ExceptionPopupMessage/docs)
 
 
 ### Basic Example
